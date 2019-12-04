@@ -8,7 +8,7 @@ import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.session.data.redis.config.annotation.web.http.EnableRedisHttpSession;
 
 /**
- * @desception:
+ * @desception: redis配置
  * @author: mi
  * @date: 2019-08-19 9:27
  */
