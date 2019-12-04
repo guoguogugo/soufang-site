@@ -20,13 +20,13 @@ import java.net.UnknownHostException;
 @Configuration
 public class ElasticSearchConfig {
 
-  @Value("${elasticsearch.host}")
+  @Value("${elasticsearch.host}")   //elasticsearch IP
   private String esHost;
 
-  @Value("${elasticsearch.port}")
+  @Value("${elasticsearch.port}")            // 端口
   private int esPort;
 
-  @Value("${elasticsearch.cluster.name}")
+  @Value("${elasticsearch.cluster.name}")   // 名称
   private String esName;
 
   @Bean
